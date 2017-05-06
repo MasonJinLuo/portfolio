@@ -1,0 +1,167 @@
+#header{
+	text-align: center;
+	border-color: #FF1493;
+	border-width: 5px;
+	border-style: solid;
+    border-radius: 12px;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    color: #FF66FF;
+    
+}
+
+h1{
+    font-size: 45px;
+    
+}
+
+body {
+    background-image: url("../images/background.jpg");
+    color: white;
+    font-family: Verdana, Geneva, sans-serif;
+
+}
+
+.icons{
+  width: 65px;
+  height: 65px;
+  border:2px solid black;
+  border-radius: 5px;
+  margin: 10px;
+
+}
+
+#connect{
+	text-align: center;
+	border-color: #00CED1;
+	border-width: 5px;
+	border-style: solid;
+    border-radius: 12px;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+}
+
+
+#portfolio{
+	text-align: center;
+	border-color:  #26FF26;
+	border-width: 5px;
+	border-style: solid;
+    border-radius: 12px;
+    padding-bottom: 130px;
+    background: rgba(0, 0, 0, 0.6);
+    color: #26FF26;
+
+
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 8px solid  #26FF26;
+    border-radius: 12px;
+    margin: 40%;
+    padding: 0;
+    width: 60%;
+    margin: auto; 
+}
+
+.section{
+
+    text-decoration: underline;
+
+}
+
+
+.dropbtn {
+    background-color:  #26FF26;
+    color: black;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    margin: 10px;
+    font-weight: bold;
+
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    font-weight: bold;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-size: 15px;
+}
+
+.dropdown-content a:hover {background-color: #66FF66}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color:  #66FF66;
+}
+
+.dropdownImage{
+    /*height: 160px;*/
+    width: 160px;
+}
+
+
+
+
+
+#footer{
+    text-align: center;
+    border-color: #9400D3;
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 12px;
+    padding: 25px;
+    background: rgba(0, 0, 0, 0.6);
+
+}
+
+#aboutMe{
+    font-size: 20px;
+    color: #1E90FF;
+}
+
+#aboutMeContainer{
+    text-align: center;
+    border-color:  #26FF26;
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 12px;
+    padding-bottom: 87px;
+    background: rgba(0, 0, 0, 0.6);
+    color: #26FF26;
+
+}
+
+
+#aboutMePicture{
+    width: 300px;
+    height: 300px;
+}
+
+p {
+    text-indent: 50px;
+}
